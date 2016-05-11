@@ -1,0 +1,28 @@
+package:
+  name: amos
+  version: "3.1.0"
+
+source:
+  path: code
+  git_rev: AMOS_3_1_0
+  git_url: http://git.code.sf.net/p/amos/code
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - mummer
+    - perl-statistics-descriptive
+    - perl-xml-parser
+    - perl-dbi
+    - jellyfish
+    - boost
+    - python
+  run:
+    - mummer
+    - perl-statistics-descriptive
+    - perl-xml-parser
+    - perl-dbi
+    - jellyfish
+    - python
