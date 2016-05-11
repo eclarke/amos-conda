@@ -2,23 +2,26 @@ package:
   name: amos
   version: "3.1.0"
 
+about:
+  home: 'http://amos.sourceforge.net/wiki/index.php/AMOS'
+  summary: 'A Modular, Open-Source whole genome assembler'
+
 source:
-  path: code
-  git_rev: AMOS_3_1_0
-  git_url: http://git.code.sf.net/p/amos/code
+  fn: amos-pruned.tar.gz
+  url: file://amos-pruned.tar.gz
 
 build:
-  number: 0
+  number: 2
+
+test:
+  commands:
+    - Minimo -h > /dev/null
 
 requirements:
   build:
-    - mummer
-    - perl-statistics-descriptive
-    - perl-xml-parser
-    - perl-dbi
-    - jellyfish
+    - gcc
     - boost
-    - python
+    - autoconf
   run:
     - mummer
     - perl-statistics-descriptive

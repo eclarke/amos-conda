@@ -1,5 +1,4 @@
 ./bootstrap
-./configure \
-    --prefix=$PREFIX
+./configure --prefix=$PREFIX
 make
 make install
