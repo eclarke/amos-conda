@@ -5,6 +5,7 @@ package:
 about:
   home: 'http://amos.sourceforge.net/wiki/index.php/AMOS'
   summary: 'A Modular, Open-Source whole genome assembler'
+  license: Artistic License
 
 source:
   fn: amos-pruned.tar.gz
