@@ -8,7 +8,7 @@ about:
 
 source:
   fn: amos-pruned.tar.gz
-  url: file://amos-pruned.tar.gz
+  url: https://github.com/eclarke/amos-conda/raw/master/amos-pruned.tar.gz
 
 build:
   number: 2
