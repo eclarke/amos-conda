@@ -8,11 +8,11 @@ about:
   license: Artistic License
 
 source:
-  fn: amos-pruned.tar.gz
-  url: https://github.com/eclarke/amos-conda/raw/master/amos-pruned.tar.gz
+  git_url: http://git.code.sf.net/p/amos/code
+  git_rev: 9bd658
 
 build:
-  number: 2
+  number: 3
 
 test:
   commands:

@@ -1,3 +1,4 @@
+rm -r test tutorial
 ./bootstrap
 ./configure --prefix=$PREFIX
 make
